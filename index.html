@@ -8,6 +8,7 @@
 	<script src="lib/Bootstrap/jquery.js"> </script>
 	<link rel="stylesheet" href="lib/Bootstrap/bootstrap.css">
 	<script src="lib/Bootstrap/bootstrap.min.js"> </script>
+
 	<!-- Glyphicon Adicionais -->
 	<link rel="stylesheet" href="lib/FontAwesome/font-awesome.min.css">
 	
@@ -16,32 +17,52 @@
 
 	 <!-- Fonts -->
 	 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 
 </head>
 <body>
-
+	
 	<header class="col-md-12">
 		<div class="container">
 			
 			<div class="info-redes">
+
+				<!-- Div de informacoes -->
 				<p class="info col-md-offset-4 col-md-4">
 					<span class="glyphicon glyphicon-earphone"></span>
 					(13) 3333-3333
 			
 					<span class="glyphicon glyphicon-envelope"></span>
 					www.kbrtec.com.br
-				</p>
-				<p class="redes col-md-offset-3 col-md-1">
-					<span class="fa fa-facebook-square"></span>
-					<span class="fa fa-twitter-square"></span>
-					<span class="fa fa-youtube-square"></span>
-				</p>
-			</div>
+				</p><!--  .end info -->
 
+				<!-- Div de Redes Sociais -->
+				<p class="redes col-md-offset-3 col-md-1">
+					<!-- Facebook -->
+					<a href="https://www.facebook.com/">
+						<span class="fa fa-facebook-square"></span>
+					</a>
+					<!-- Twitter -->
+					<a href="https://twitter.com/">
+						<span class="fa fa-twitter-square"></span>
+					</a>
+					<!-- Youtube -->
+					<a href="https://www.youtube.com">
+						<span class="fa fa-youtube-square"></span>
+					</a>
+				</p> <!-- .end redes -->
+
+			</div> <!-- .end info-redes -->
+
+			<!-- Inicio da Navbar superior -->
 			<div class="container-nav">
+
+				<!-- Logo Kbr -->
 				<div class="kbr col-md-2">
 					<img src="img/kbrLogo.jpg" alt="Logo" />
-				</div>
+				</div> <!-- .end Kbr -->
+
+				<!-- Navbar -->
 				<nav class="navbar navbar-top col-xs-offset-3 col-md-7">
 					<ul class="list-inline">
 						<li><a href="#nowhere" title="Home">Home</a></li>
@@ -54,17 +75,20 @@
 						<li><a href="#nowhere" title="Fotos">Fotos</a></li>
 						<li><a href="#nowhere" title="Apoios">Apoios</a></li>
 					</ul>
-				</nav>
-			</div>	
-		</div>
-	</header>
+				</nav> <!-- .end nav -->
+			</div> <!-- .end container-nav -->	
+		</div> <!-- .end container -->
+	</header> <!-- .end Header -->
 
 	<section class="banner col-md-12">
+		<!-- Inicio do container Banner -->
 		<div class="container">
+			<!-- Inicio do Carousel -->
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-				<!-- Wrapper for slides -->
+				<!-- Conteudo dos slides -->
 				<div class="carousel-inner">
+
 					<div class="item active">
 						<h1>Primeiro Lorem: Lorem ipsum dolor sit amet.</h1>
 						<div class="sb-btn">Saiba mais</div>
@@ -79,29 +103,51 @@
 						<h1>Terceiro Lorem: Lorem ipsum dolor sit amet.</h1>
 						<div class="sb-btn">Saiba mais</div>
 					</div>
-				</div>
 
-				<!-- Left and right controls -->
+					<!-- Adicionar outros slides aqui
+					Ex.: 
+						<div class="item">
+							<h1>Quarto Lorem: Lorem ipsum dolor sit amet.</h1>
+							<div class="sb-btn">Saiba mais</div>
+						</div> -->
+
+				</div> <!-- .end carousel-inner -->
+				
+				<!-- Controles -->
+
+					<!-- Controle esquerdo -->
 					<a class="move-left carousel-control" href="#myCarousel" data-slide="prev">
 						<img src="img/banner_leftArrow.png" alt="Previous">
 					</a>
+
+					<!-- Controle Direito -->
 					<a class="move-right carousel-control" href="#myCarousel" data-slide="next">
 						<img src="img/banner_rightArrow.png" alt="Next">
 					</a>	
-			</div>
-		</div>
-	</section>
+
+			</div> <!-- .end myCarousel -->
+		</div> <!-- .end container -->
+	</section> <!-- .end banner -->
 
 	<section class="last-project col-md-12">
 		<div class="container">
+			<!-- Inicio do Titulo -->
 			<div class="last-project-title col-md-12 text-center">
+
+				<!-- Titulo -->
 				<h2>Últimos <span class="c-blue">Projetos</span></h2>
-				<p class="col-md-offset-3 col-md-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ipsam, iste facilis aperiam culpa 	atque error sint libero. Dolorem, iste.
+
+				<!-- Texto -->
+				<p class="col-md-offset-3 col-md-6">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ipsam, iste facilis aperiam culpa 	atque error sint libero. Dolorem, iste.
 				</p>
-			</div>
 
+			</div> <!-- .end last-project-title -->
+
+			<!-- Inicio da vertical Timeline -->
 			<div class="last-project-text col-md-12" >
-
+				
+				<!-- Lista esquerda -->
 				<div class="ul-left col-md-offset-1 col-md-5">
 					<ul>
 						<li>
@@ -121,8 +167,9 @@
 							<p>Lorem ipsum dolor sit amet.</p>
 						</li>
 					</ul>
-				</div>
-
+				</div> <!-- .end ul-left -->
+				
+				<!-- Lista Direita -->
 				<div class="ul-right col-md-5">
 					<ul>
 						<li>
@@ -142,232 +189,299 @@
 							<p>Lorem ipsum dolor sit amet.</p>
 						</li>
 					</ul>
-				</div>
+				</div> <!-- .end ul-right -->
 
-			</div>
-		</div>
-	</section>
+			</div> <!-- .end vertical Timeline -->
+		</div> <!-- .end container -->
+	</section> <!-- .end last-project -->
 
 	<section class="last-news col-md-12">
-		<div class="container">
+		<div class="container">	
+
+			<!-- Titulo -->
 			<div class="last-news-title">
 				<h2>Ultimas <span class="c-blue">Notícia</span></h2>
-			</div>
-
+			</div> <!-- .end Titulo -->
+			
+			<!-- Conteudo -->
 			<div class="last-news-content">
-
+				
+				<!-- Primeiro Conteudo -->
 				<div class="last-news-item item-1 col-md-4">
 
+					<!-- Container para ocupar 100%-->
 					<div class="container col-md-12">
+
+						<!-- Data da noticia -->
 						<span class="data">21/03/2018</span>
-
+						
+						<!-- Conteudo Visivel-->
 						<div class="content-1">
-
+							
 							<img src="img/lastNews-img1.jpg" alt="" />
+							<!-- Titulo -->
 							<span class="img-title">Lorem ipsum dolor sit amet.</span>
+							<!-- Texto -->
 							<p>Lorem ipsum dolor sit amet.</p>
 
-						</div>
-
+						</div> <!-- .end conteudo visivel -->
+						
+						<!-- Inicio conteudo oculto - visivel em hover-->
 						<div  class="content-oc content-oc-1">
+
+							<!-- Titulo -->
 							<div class="row">
 								<h4 class="col-md-offset-3 col-md-6" >Lorem ipsum dolor sit amet.</h4>
-							</div>
+							</div> <!-- .end Titulo -->
+
+							<!-- Conteudo-->
 							<div class="row">
 								<p class="col-md-offset-2 col-md-8">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi reprehenderit unde itaque harum eum voluptatum optio voluptates, repellendus praesentium.
 								</p>
-							</div>
+							</div> <!-- .end Conteudo -->
+
+							<!-- Btn Saiba mais -->
 							<div class="row sb-btn">Saiba mais</div>
-						</div>
-					</div>
+						</div> <!-- .end conteudo oculto -->
+					</div> <!-- .end container -->
+				</div><!-- .end Primeiro Conteudo -->
 
-				</div>
-
+				<!-- Segundo Conteudo -->
 				<div class="last-news-item item-2 col-md-4">
-
+					
+					<!-- Container para ocupar 100% -->
 					<div class="container col-md-12">
-						<span class="data">21/03/2018</span>
 
+						<!-- Data da noticia -->
+						<span class="data">21/03/2018</span>
+						
+						<!-- Conteudo visivel  -->
 						<div class="content-2">
 
 							<img src="img/lastNews-img1.jpg" alt="" />
+							<!-- Titulo -->
 							<h3>Lorem ipsum dolor sit amet.</h3>
+							<!-- Texto -->
 							Lorem ipsum dolor sit amet.
 
-						</div>
+						</div><!--  .end conteudo Visivel -->
 
+						<!-- Conteudo Oculto -->
 						<div  class="content-oc content-oc-2">
+							<!-- titulo -->
 							<div class="row">
 								<h4 class="col-md-offset-3 col-md-6" >Lorem ipsum dolor sit amet.</h4>
-							</div>
+							</div> <!-- .end Titulo -->
+							<!-- Conteudo -->
 							<div class="row">
 								<p class="col-md-offset-2 col-md-8">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi reprehenderit unde itaque harum eum voluptatum optio voluptates, repellendus praesentium.
 								</p>
-							</div>
+							</div> <!-- .end conteudo -->
+
+							<!-- Btn saiba mais -->
 							<div class="row sb-btn">Saiba mais</div>
-						</div>
-					</div>
 
-				</div>	
-
+						</div> <!-- .end conteudo oculto -->
+					</div> <!-- .end container -->
+				</div>	<!--  .end Segundo conteudo -->
+	
+				<!-- Terceiro Conteudo -->
 				<div class="last-news-item item-3 col-md-4">
-
+					
+					<!-- Container para ocupar 100% -->
 					<div class="container col-md-12">
-						
+							
+						<!-- Data do conteudo -->
 						<span class="data">21/03/2018</span>
-
+						
+						<!-- Inicio Conteudo visivel -->	
 						<div class="content-3">
 
 							<img src="img/lastNews-img2.jpg" alt="" />
+							<!-- Titulo -->
 							<h3>Lorem ipsum dolor sit amet.</h3>
+							<!-- Texto -->
 							Lorem ipsum dolor sit amet.
 
-						</div>
+						</div> <!-- .end conteudo visivel -->
 
+						<!-- Conteudo Oculto -->
 						<div  class="content-oc content-oc-3">
-
+							
+							<!-- Titulo -->
 							<div class="row">
 								<h4 class="col-md-offset-3 col-md-6" >Lorem ipsum dolor sit amet.</h4>
-							</div>
+							</div> <!-- .end titulo -->
 
+							<!-- conteudo -->
 							<div class="row">
 								<p class="col-md-offset-2 col-md-8">
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas modi reprehenderit unde itaque harum eum voluptatum optio voluptates, repellendus praesentium.
 								</p>
-							</div>
+							</div><!--  .end conteudo -->
 
+							<!-- Btn saiba mais -->
 							<div class="row sb-btn">Saiba mais</div>
 
-						</div>
-					</div>
-				
-				</div>
-			</div>		
-		</div>
-	</section>
+						</div> <!-- .end Conteudo Oculto -->
+					</div> <!-- . end Container -->
+				</div> <!-- .end Terceiro item -->
+			</div>	<!--  .end last-new-content -->	
+		</div> <!-- .end Container -->
+	</section> <!-- .end last-news -->
 
 	<section class="video-gallery-title col-md-12">
+
+		<!-- Manter conteudo centralizado -->
 		<div class="container">
-			
+	
+			<div class="row">
 				<div class="col-md-5">
+
+					<!-- Div do Play -->
 					<div class="col-md-2">	
 				 		<img src="img/li/play.png" alt="Play">
-				 	</div>	
+				 	</div><!-- 	.end Play -->
+
+				 	<!-- Div Titulo e texto -->
 				 	<div class="col-md-10">
+				 		<!-- Titulo -->
 						<h1>Galeria de Vídeos</h1>
+						<!-- Texto -->
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates repellat fugiat natus minima, soluta ipsa officiis eius. Consequatur, vitae, esse.
-					</div>
+					</div> <!-- .end Div Title & text -->
 					
-				</div>
-					
-		</div>
-	</section>
-	
+				</div> <!-- .end Posicionamento -->
+			</div> <!-- .end row -->
+		</div> <!-- .end Container -->
+	</section> <!-- .end video-galley-title -->
+
 	<section class="video-gallery-content col-md-12">
 		<div class="container">
-		
+
+				<!-- Div do primeiro video -->
 				<div class="video-gallery-item col-md-6">
 
+					<!-- Div do video	 -->
 					<div class="video">
 						<iframe width="550" height="300" src="https://www.youtube.com/embed/hTU3C0t8ZMU">
 						</iframe>
-					</div>
-
+					</div> <!-- .end video -->
+					
+					<!-- Dados do video -->
 					<div class="desc">
+
+						<!-- Data -->
 						<span class="data">21/03/2018</span>
 						<br />
+						<!-- Descricao -->
 						Lorem ipsum dolor sit amet.
-					</div>
+					</div> <!-- .end Dados -->
 
-				</div>
+				</div> <!-- .end Primeiro video -->
 
+				<!-- Div segundo video -->
 				<div class="video-gallery-item col-md-6">
-
-					<div class="video">
-						<iframe width="550" height="300" src="https://www.youtube.com/embed/hTU3C0t8ZMU">
-						</iframe>
-					</div>
-
-					<div class="desc">
-						<span class="data">21/03/2018</span>
 						
-						<br />
-						Lorem ipsum dolor sit amet.
+					<!-- Div do video	 -->
+					<div class="video">
+						<iframe width="550" height="300" src="https://www.youtube.com/embed/hTU3C0t8ZMU">
+						</iframe>
 					</div>
 
-				</div>
-		</div>
-	</section>
+					<!-- Dados do video -->
+					<div class="desc">
+						<span class="data">21/03/2018</span>
+												<br />
+						Lorem ipsum dolor sit amet.
+					</div> <!-- .end dados Video -->
+				</div> <!-- .end Segundo Videos -->
+		</div> <!-- .end Container -->
+	</section> <!-- .end vdeo-gallery-content -->
 
 	<section class="newsletters col-md-12">
 		<div class="container">
+
+			<!-- Inicio do form -->
 			<form class="emailForm">
+				
+				<!-- Titulo -->
 				<div class="newsletters-title col-md-2">
 					<h3>Receba nossa Newsletter</h3>
 				</div>
-
+				
+				<!-- Div Inputs -->
 				<div class="newsletter-input col-md-10 text-right">
 
 					<div class="col-md-offset-1 col-md-5" >
 						<input type="text" class="form-control  nome" id="Nome" placeholder="Nome">
 					</div>
+
 					<div class="col-md-4">
 						<input type="text" class="form-control e-mail" id="E-mail" placeholder="E-mail">
 					</div>
+
 					<div class="col-md-2">
 						<button class="form-control" onClick="" >Enviar</button>
 					</div>
-				</div>
+				</div> <!-- .end Div inputs -->
 
-			</form>
-		</div>
-	</section>
+			</form> <!-- .end Form -->
+		</div> <!-- .end Container -->
+	</section> <!-- .end newsletter -->
 
-	<section class="nav-bottom">
+	<section class="nav-bottom col-md-12">
 		<div class="container">
 
-			<div class="footer-top">
-						
-				<div class="container-nav">
-					<div class="kbr col-md-2">
-						<img src="img/kbrLogo.jpg" alt="Logo" />
-					</div>
-					<nav class="navbar col-xs-offset-3 col-md-7">
-						<ul class="list-inline">
-							<li><a href="#nowhere" title="Home">Home</a></li>
-							<li><a href="#nowhere" title="Biografia">Biografia</a></li>
-							<li><a href="#nowhere" title="Propostas">Propostas</a></li>
-							<li><a href="#nowhere" title="Notícias">Notícias</a></li>
-							<li><a href="#nowhere" title="Artigos">Artigos</a></li>
-							<li><a href="#nowhere" title="Vídeos">Vídeos</a></li>
-							<li><a href="#nowhere" title="Materiais">Materiais</a></li>
-							<li><a href="#nowhere" title="Fotos">Fotos</a></li>
-							<li><a href="#nowhere" title="Apoios">Apoios</a></li>
-						</ul>
-						<p class="endereco">Av. Senador Feijó,686 - Salas 1624/1625 Vila Mathias - Santos/SP | CEP: 11015-504</p>
-					</nav>
-
-				</div>	
+			<!-- Logo Kbr -->
+			<div class="kbr col-md-2">
+				<img src="img/kbrLogo.jpg" alt="Logo" />
 			</div>
-		</div>		
-	</section>
+
+			<!-- Inicio da navbar bottom -->
+			<nav class="navbar col-xs-offset-3 col-md-7">
+
+				<ul class="list-inline">
+					<li><a href="#nowhere" title="Home">Home</a></li>
+					<li><a href="#nowhere" title="Biografia">Biografia</a></li>
+					<li><a href="#nowhere" title="Propostas">Propostas</a></li>
+					<li><a href="#nowhere" title="Notícias">Notícias</a></li>
+					<li><a href="#nowhere" title="Artigos">Artigos</a></li>
+					<li><a href="#nowhere" title="Vídeos">Vídeos</a></li>
+					<li><a href="#nowhere" title="Materiais">Materiais</a></li>
+					<li><a href="#nowhere" title="Fotos">Fotos</a></li>
+					<li><a href="#nowhere" title="Apoios">Apoios</a></li>
+				</ul>
+
+				<!-- Endereco da empresa -->
+				<p class="endereco">
+					Av. Senador Feijó,686 - Salas 1624/1625 Vila Mathias - Santos/SP | CEP: 11015-504
+				</p>
+
+			</nav> <!-- .end navbar Bottom -->
+		</div>	<!-- .end Container -->
+	</section><!-- .end nav-bottom -->
 
 	<footer class="col-md-12">
 		<div class="container">
-			<div class="footer-bottom">
+				<!-- Direitos Autorais -->
 				<div class="direitos col-md-6">
-					cKBRTEC - Todos os direitos reservados
+					&copy;KBRTEC - Todos os direitos reservados
 				</div>
+				<!-- Mini logo KBR -->
 				<div class="dev col-md-6 text-right">
-					Desenvolvido por:
+						Desenvolvido por: 
+						<img src="img/kbrLogo-thumbnail.jpg" alt="">
 				</div>
-			</div>
-		</div>
-	</footer>
+			
+		</div> <!-- .end container -->
+	</footer> <!-- .end footer -->
 
-
+<!-- Script -->
 <script src="js/news-jquery.js"></script>
+
 </body>
+
 </html>
