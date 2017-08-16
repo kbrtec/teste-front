@@ -74,17 +74,20 @@ body {
 	border: 1px solid black;
 	@extend .container;
 	height: 315px;
+	margin-bottom: 170px;
 }
 .last-news-item img{
 	width: 100%;
 }
 
-.last-news-item:hover{
+.last-news-item .content-oc{
 	background-color: $color-default;
 	color: #fff;
-	
+	text-align: center;
 }
-
+.content-oc .sb-btn{
+	margin: 0 auto;
+}
 .video-gallery-title{
 	@extend .invert;
 	height: 300px;
