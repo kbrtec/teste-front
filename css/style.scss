@@ -2,6 +2,59 @@ $color-default :  #3184b7;
 
 body {
 	background-color: #fff;
+	color: #4c4c4c;
+}
+.container{
+	padding: 0;
+}
+.info-redes{
+	color: #c4c4c4;
+}
+
+.navbar{
+	font-family: "MyriadPro Regular";
+	font-size: 17px;
+
+	a:link {
+		font-style: none;
+		color:#4c4c4c;
+
+	}& a:hover{
+		font-style: underline;
+		color: $color-default;
+	}
+}
+.navbar-top{
+	padding-top: 30px;
+}
+
+#myCarousel .item{
+	color: #fff;
+	height: 548px;
+	padding-left: 120px;
+	padding-top: 200px;
+}
+#myCarousel .move-right{
+	right: -100px;
+  	left: auto;
+  	
+}
+#myCarousel .move-left{
+	left: -100px;
+	right: auto;
+	
+}
+#myCarousel .move-right,.move-left{
+	padding-top: 250px;
+}
+
+.sb-btn{
+	border: 2px solid #fff;
+	border-radius: 6px;
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	padding-top: 11px;
 }
 .invert{
 	background-color: $color-default;
@@ -15,6 +68,22 @@ body {
 		border-bottom: 1px solid #000;
 		margin-top: 10px;
 	}
+
+.last-news-item{
+	text-align: center;
+	border: 1px solid black;
+	@extend .container;
+	height: 315px;
+}
+.last-news-item img{
+	width: 100%;
+}
+
+.last-news-item:hover{
+	background-color: $color-default;
+	color: #fff;
+	
+}
 
 .video-gallery-title{
 	@extend .invert;
@@ -32,8 +101,9 @@ body {
 .newsletters{
 	@extend .invert;
 }
-.c-blue{
-	color: $color-default;	
+.c-blue,.data {
+	color: $color-default;
+	text-align: justify;	
 }
 .banner{
 	background-image: url('../img/banner.jpg');

@@ -5,9 +5,9 @@
 	<title>KBR Tec</title>
 
 	<!-- Bootstrap -->
+	<script src="lib/Bootstrap/jquery.js"> </script>
 	<link rel="stylesheet" href="lib/Bootstrap/bootstrap.css">
 	<script src="lib/Bootstrap/bootstrap.min.js"> </script>
-	
 	<!-- Glyphicon Adicionais -->
 	<link rel="stylesheet" href="lib/FontAwesome/font-awesome.min.css">
 	
@@ -34,11 +34,12 @@
 					<span class="fa fa-youtube-square"></span>
 				</p>
 			</div>
+
 			<div class="container-nav">
 				<div class="kbr col-md-2">
 					<img src="img/kbrLogo.jpg" alt="Logo" />
 				</div>
-				<nav class="col-xs-offset-3 col-md-7">
+				<nav class="navbar navbar-top col-xs-offset-3 col-md-7">
 					<ul class="list-inline">
 						<li><a href="#nowhere" title="Home">Home</a></li>
 						<li><a href="#nowhere" title="Biografia">Biografia</a></li>
@@ -57,9 +58,33 @@
 
 	<section class="banner col-md-12">
 		<div class="container">
-			<div class="col-md-offset-1">
-				<h2>Lorem ipsum dolor sit amet.</h2>
-				<button>Saiba Mais</button>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<h1>Primeiro Lorem: Lorem ipsum dolor sit amet.</h1>
+						<div class="sb-btn">Saiba Mais</div>
+					</div>
+
+					<div class="item">
+						<h1>Segundo Lorem: Lorem ipsum dolor sit amet.</h1>
+						<div class="sb-btn">Saiba Mais</div>
+					</div>
+
+					<div class="item">
+						<h1>Terceiro Lorem: Lorem ipsum dolor sit amet.</h1>
+						<div class="sb-btn">Saiba Mais</div>
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+					<a class="move-left carousel-control" href="#myCarousel" data-slide="prev">
+						<img src="img/banner_leftArrow.png" alt="Previous">
+					</a>
+					<a class="move-right carousel-control" href="#myCarousel" data-slide="next">
+						<img src="img/banner_rightArrow.png" alt="Next">
+					</a>	
 			</div>
 		</div>
 	</section>
@@ -129,7 +154,7 @@
 			<div class="last-news-content">
 
 				<div class="last-news-item col-md-4">
-
+					<div class="container col-md-12">
 						<div class="data">
 							21/03/2018
 						</div>
@@ -139,7 +164,7 @@
 							<h3>Lorem ipsum dolor sit amet.</h3>
 							Lorem ipsum dolor sit amet.
 						</div>
-
+					</div>
 				</div>
 
 				<div class="last-news-item col-md-4">
@@ -149,7 +174,7 @@
 						</div>
 
 						<div class="content">
-
+							<img src="img/lastNews-img2.jpg" alt="" />
 							<h3>Lorem ipsum dolor sit amet.</h3>
 							Lorem ipsum dolor sit amet.
 						</div>
