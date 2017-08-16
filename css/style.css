@@ -5,7 +5,7 @@ body {
 .container, .last-news-item {
   padding: 0; }
 
-.info-redes {
+.info-redes, .endereco {
   color: #c4c4c4; }
 
 .navbar {
@@ -59,7 +59,6 @@ body {
 
 .last-news-item {
   text-align: center;
-  border: 1px solid black;
   height: 315px;
   margin-bottom: 170px; }
 
@@ -77,11 +76,22 @@ body {
 .video-gallery-title {
   height: 300px; }
 
-.video-gallery li {
+.video-gallery-title li {
   list-style-image: url("../img/li/play.png"); }
 
 .video-gallery-content {
-  margin-top: -150px; }
+  margin-top: -150px;
+  height: 470px; }
+
+.newsletters input {
+  margin: 20px 0 20px 0;
+  height: 60px;
+  border-radius: 8px; }
+
+.newsletters button {
+  color: #3184b7;
+  width: 110px;
+  margin: 30px 40px; }
 
 .c-blue, .data {
   color: #3184b7;

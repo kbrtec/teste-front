@@ -7,7 +7,7 @@ body {
 .container{
 	padding: 0;
 }
-.info-redes{
+.info-redes,.endereco{
 	color: #c4c4c4;
 }
 
@@ -71,7 +71,6 @@ body {
 
 .last-news-item{
 	text-align: center;
-	border: 1px solid black;
 	@extend .container;
 	height: 315px;
 	margin-bottom: 170px;
@@ -93,17 +92,29 @@ body {
 	height: 300px;
 }
 
-.video-gallery li{
+.video-gallery-title li{
 	list-style-image: url('../img/li/play.png');
 }
 
 .video-gallery-content{
 	margin-top: -150px;
+	height: 470px;
 }
 
 .newsletters{
 	@extend .invert;
 }
+.newsletters input{
+	margin: 20px 0 20px 0 ;
+	height: 60px;
+	border-radius: 8px;
+}
+.newsletters button{
+	color: $color-default;
+	width: 110px;
+	margin: 30px 40px;	
+}
+
 .c-blue,.data {
 	color: $color-default;
 	text-align: justify;	
