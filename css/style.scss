@@ -1,3 +1,42 @@
+$color-default :  #3184b7;
+
 body {
-	background-color: #123;
+	background-color: #fff;
+}
+.invert{
+	background-color: $color-default;
+	color: #fff;
+}
+
+.last-project{
+	background-color:#f6f6f6;
+}
+	.last-project-text li {
+		border-bottom: 1px solid #000;
+		margin-top: 10px;
+	}
+
+.video-gallery-title{
+	@extend .invert;
+	height: 300px;
+}
+
+.video-gallery li{
+	list-style-image: url('../img/li/play.png');
+}
+
+.video-gallery-content{
+	margin-top: -150px;
+}
+
+.newsletters{
+	@extend .invert;
+}
+.c-blue{
+	color: $color-default;	
+}
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-repeat: none;
+	height: 548px;
 }
