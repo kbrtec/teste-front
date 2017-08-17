@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<title>KBR Tec</title>
 
+	<meta charset="UTF-8">
+	<!-- Descricao do site -->
+	<meta name="description" content="Bem vindo a kbr Tec, cuidamos do Desenvolvimento de Sites, Portais, Lojas Virtuais, Intranets e Softwares. Venha fazer uma consulta conosco." />
+
+	<!-- Keywors para o robots -->
+	<meta name="keywords" content="Software development, desenvolvimento de software, consultoria de tecnologia, Santos, web systems, intranets, software, portais" />
+
+	<!-- O que o robots deve fazer -> indexar a pagina e continuar seguindo os links -->
+	<meta name="robots" content="index, follow">
+
+	<title>KBR Tec -  Desenvolvimento de software</title>
+	
 	<!-- Bootstrap -->
 	<script src="lib/Bootstrap/jquery.js"> </script>
 	<link rel="stylesheet" href="lib/Bootstrap/bootstrap.css">
@@ -25,21 +35,25 @@
 	<header class="col-md-12">
 		<div class="container">
 			
-			<div class="info-redes">
+			<div class="info-redes row">
 
-				<!-- Div de informacoes -->
-				<p class="info col-md-offset-4 col-md-4">
-					<span class="glyphicon glyphicon-earphone"></span>
-					(13) 3333-3333
-			
-					<span class="glyphicon glyphicon-envelope"></span>
-					www.kbrtec.com.br
-				</p><!--  .end info -->
+				<!-- P de informacoes -->
+				<div class="info col-md-offset-4 col-md-5">
+					<div class="col-md-5">
+						<span class="glyphicon glyphicon-earphone"></span>
+						(13) 3333-3333
+					</div>
+
+					<div class="col-md-offset-2 col-md-5">
+						<span class="glyphicon glyphicon-envelope"></span>
+						www.kbrtec.com.br
+					</div>
+				</div><!--  .end info -->
 
 				<!-- Div de Redes Sociais -->
-				<p class="redes col-md-offset-3 col-md-1">
+				<div class="redes col-md-offset-2 col-md-1">
 					<!-- Facebook -->
-					<a href="https://www.facebook.com/">
+					<a href="www.facebook.com">
 						<span class="fa fa-facebook-square"></span>
 					</a>
 					<!-- Twitter -->
@@ -50,20 +64,21 @@
 					<a href="https://www.youtube.com">
 						<span class="fa fa-youtube-square"></span>
 					</a>
-				</p> <!-- .end redes -->
+				</div> <!-- .end redes -->
 
 			</div> <!-- .end info-redes -->
 
 			<!-- Inicio da Navbar superior -->
-			<div class="container-nav">
+			<div class="container">
 
 				<!-- Logo Kbr -->
 				<div class="kbr col-md-2">
 					<img src="img/kbrLogo.jpg" alt="Logo" />
-				</div> <!-- .end Kbr -->
+				</div>
 
-				<!-- Navbar -->
+				<!-- Inicio da navbar bottom -->
 				<nav class="navbar navbar-top col-xs-offset-3 col-md-7">
+
 					<ul class="list-inline">
 						<li><a href="#nowhere" title="Home">Home</a></li>
 						<li><a href="#nowhere" title="Biografia">Biografia</a></li>
@@ -75,7 +90,10 @@
 						<li><a href="#nowhere" title="Fotos">Fotos</a></li>
 						<li><a href="#nowhere" title="Apoios">Apoios</a></li>
 					</ul>
-				</nav> <!-- .end nav -->
+
+					
+
+				</nav> <!-- .end navbar Bottom -->
 			</div> <!-- .end container-nav -->	
 		</div> <!-- .end container -->
 	</header> <!-- .end Header -->
@@ -219,11 +237,12 @@
 						<div class="content-1">
 							
 							<img src="img/lastNews-img1.jpg" alt="" />
-							<!-- Titulo -->
-							<span class="img-title">Lorem ipsum dolor sit amet.</span>
-							<!-- Texto -->
-							<p>Lorem ipsum dolor sit amet.</p>
-
+							<div class="text-center">
+								<!-- Titulo -->
+								<span class="img-title">Lorem ipsum dolor sit amet.</span>
+								<!-- Texto -->
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
 						</div> <!-- .end conteudo visivel -->
 						
 						<!-- Inicio conteudo oculto - visivel em hover-->
@@ -260,10 +279,12 @@
 						<div class="content-2">
 
 							<img src="img/lastNews-img1.jpg" alt="" />
-							<!-- Titulo -->
-							<h3>Lorem ipsum dolor sit amet.</h3>
-							<!-- Texto -->
-							Lorem ipsum dolor sit amet.
+							<div class="text-center">
+								<!-- Titulo -->
+								<span class="img-title">Lorem ipsum dolor sit amet.</span>
+								<!-- Texto -->
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
 
 						</div><!--  .end conteudo Visivel -->
 
@@ -300,10 +321,12 @@
 						<div class="content-3">
 
 							<img src="img/lastNews-img2.jpg" alt="" />
-							<!-- Titulo -->
-							<h3>Lorem ipsum dolor sit amet.</h3>
-							<!-- Texto -->
-							Lorem ipsum dolor sit amet.
+							<div class="text-center">
+								<!-- Titulo -->
+								<span class="img-title">Lorem ipsum dolor sit amet.</span>
+								<!-- Texto -->
+								<p>Lorem ipsum dolor sit amet.</p>
+							</div>
 
 						</div> <!-- .end conteudo visivel -->
 
@@ -366,7 +389,7 @@
 
 					<!-- Div do video	 -->
 					<div class="video">
-						<iframe width="550" height="300" src="https://www.youtube.com/embed/hTU3C0t8ZMU">
+						<iframe width="550" height="300" src="https://www.youtube.com/embed/jEJUopJv12I" allowfullscreen></iframe>
 						</iframe>
 					</div> <!-- .end video -->
 					
@@ -387,7 +410,7 @@
 						
 					<!-- Div do video	 -->
 					<div class="video">
-						<iframe width="550" height="300" src="https://www.youtube.com/embed/hTU3C0t8ZMU">
+						<iframe width="550" height="300" src="https://www.youtube.com/embed/jEJUopJv12I" allowfullscreen>
 						</iframe>
 					</div>
 

@@ -4,6 +4,9 @@ body {
   font-family: "Arial";
   font-size: 14px; }
 
+h1, h2 {
+  font-family: "PT Sans"; }
+
 header, .nav-bottom {
   padding: 15px 0 15px 0; }
 
@@ -13,20 +16,24 @@ header, .nav-bottom {
 .info-redes, .endereco {
   color: #c4c4c4; }
 
+.redes a:link {
+  color: #c4c4c4; }
+.redes a:hover {
+  color: #3184b7; }
+.redes a:visited {
+  color: #c4c4c4; }
+
 .navbar {
   font-family: "PT Sans";
   font-size: 17px;
   font-weight: bold; }
-  .navbar a:link {
-    font-style: none;
-    color: #4c4c4c; }
-  .navbar a:hover {
-    font-style: underline;
-    color: #3184b7; }
 
 .navbar-top {
-  padding-top: 30px; }
+  padding-top: 35px;
+  color: #4c4c4c; }
 
+#myCarousel h1 {
+  font-size: 60px; }
 #myCarousel .item {
   color: #fff;
   height: 548px;
@@ -80,12 +87,11 @@ header, .nav-bottom {
   margin-bottom: 170px; }
   .last-news-item img {
     width: 100%; }
-  .last-news-item p, .last-news-item .img-title {
-    text-align: center; }
   .last-news-item .img-title {
     font-weight: bold;
     font-size: 22px; }
   .last-news-item .content-oc {
+    font-family: "PT Sans";
     background-color: #3184b7;
     color: #fff;
     height: 315px; }
@@ -136,6 +142,11 @@ header, .nav-bottom {
 
 .nav-bottom {
   color: #3184b7; }
+  .nav-bottom a:hover {
+    text-decoration: underline;
+    color: black; }
+  .nav-bottom a:visited {
+    color: #3184b7; }
 
 footer {
   padding-top: 15px;
