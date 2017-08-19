@@ -1,0 +1,28 @@
+
+
+/* carousel */
+a.right.carousel-control > img {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+	transform: rotate(180deg);
+}
+
+
+/* ultimos projetos */
+section#ultimos-projetos ul {
+	list-style-type:none;
+}
+
+section#ultimos-projetos ul li p.job-titulo { margin: 0 0 5px; }
+
+section#ultimos-projetos ul li p { display: inline-block; }
+
+section#ultimos-projetos ul li span.glyphicon-star {
+    background-color: #4c4c4c;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+}
