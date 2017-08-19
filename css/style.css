@@ -7,13 +7,40 @@ a.right.carousel-control > img {
 	transform: rotate(180deg);
 }
 
+h2 > .titulo-destaque,
+p.data-noticia,
+p.data-video {
+	color: #3184b7;
+}
 
 /* ultimos projetos */
+section#ultimos-projetos {
+	padding-top: 100px;
+	background-color: #f6f6f6;
+}
+section#ultimos-projetos .descricao{
+	width: 60%;
+	margin: 0 auto;
+}
 section#ultimos-projetos ul {
 	list-style-type:none;
 }
+section#ultimos-projetos ul li {
+	background-image: url("../img/estrela-destaque.png");
+	background-position: left;
+	background-repeat: no-repeat;
+	padding-left: 50px;
+	height: 60px;
+	margin-top: 0;
+}
 
-section#ultimos-projetos ul li p.job-titulo { margin: 0 0 5px; }
+section#ultimos-projetos ul li .job-titulo { 
+	margin: 0 0 5px;
+	margin-top: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 20px;
+}
 
 section#ultimos-projetos ul li p { display: inline-block; }
 
@@ -25,4 +52,78 @@ section#ultimos-projetos ul li span.glyphicon-star {
     text-align: center;
     color: #fff;
     display: inline-block;
+}
+
+/* noticias */
+section#ultimas-noticias {
+	padding: 60px 0 170px 0;
+}
+section#ultimas-noticias .descricao-noticia {
+	-o-text-overflow: ellipsis;   /* Opera */
+    text-overflow: clip;   	  /* IE, Safari (WebKit) */
+    overflow:hidden;              /* don't show excess chars */
+    white-space:nowrap;           /* force single line */
+    width: 70%;
+    margin: 0 auto;
+}
+section#ultimas-noticias > a:hover{
+	background-color: #3184b7;
+	position: absolute;
+	z-index: 9999;
+}
+
+
+/* galeria de videos */
+section#galeria-videos .galeria-videos-topo{
+	padding: 100px 0;
+	background-color: #3184b7;
+	height: 400px;
+	color: #fff;
+}
+section#galeria-videos .galeria-videos-itens{
+	height: 300px;
+}
+
+
+/* newsletter */
+section#newsletter {
+	background-color: #3184b7;
+	color: #fff;
+	padding: 10px 0;
+}
+section#newsletter h2{
+	margin-top: 10px;
+}
+section#newsletter form {
+	margin-top: 20px;
+}
+section#newsletter form input {
+	margin-left: 25px;
+}
+section#newsletter form input.form-control {
+	height: 40px;
+	padding: 20px 12px;
+}
+section#newsletter form input.form-control:first-of-type {
+	width: 400px;
+}
+section#newsletter form input.form-control:nth-of-type(2) {
+	width: 250px;
+}
+section#newsletter form input.btn{
+	padding: 6px 20px;
+	color: #3184b7;
+}
+
+
+/* footer */
+footer .footer {
+	padding: 30px 0;
+}
+footer .subfooter {
+	border-top: 1px solid #e9e9e9;
+}
+footer img.logo-subfooter {
+	width: 75px;
+	display: inline;
 }
