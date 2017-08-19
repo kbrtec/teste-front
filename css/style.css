@@ -66,10 +66,43 @@ section#ultimas-noticias .descricao-noticia {
     width: 70%;
     margin: 0 auto;
 }
-section#ultimas-noticias > a:hover{
+section#ultimas-noticias .box-noticia .btn-noticia-item {
+	border: 1px solid #fff;
+	color: #fff;
+	display: none;
 	background-color: #3184b7;
-	position: absolute;
-	z-index: 9999;
+}
+section#ultimas-noticias .box-noticia > a p.titulo-noticia {
+	margin-top: 20px;
+    margin-bottom: 5px;
+}
+section#ultimas-noticias .box-noticia > a:hover{
+    background-color: #3184b7;
+    position: absolute;
+    z-index: 9999;
+    height: 300px;
+    color: #fff;
+    text-decoration: none;
+    /*width: 90%;*/
+    padding: 50px 30px;
+}
+section#ultimas-noticias .box-noticia > a:hover img {
+	display: none;
+}
+section#ultimas-noticias .box-noticia > a:hover p.titulo-noticia {
+	text-transform: initial;
+	font-size: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+section#ultimas-noticias .box-noticia > a:hover p.descricao-noticia {
+    width: 100%;
+    white-space: initial;
+    overflow: unset;
+}
+section#ultimas-noticias .box-noticia > a:hover .btn-noticia-item {
+	display: block;
+	margin-top: 20px;
 }
 
 
