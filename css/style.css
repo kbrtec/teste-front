@@ -1,3 +1,14 @@
+/* normalize */
+body {
+	background-color: #fff;
+	font-family: 'PT Sans', sans-serif;
+}
+#newsletter h2,
+#galeria-videos h2,
+#ultimos-projetos .job-titulo {
+	font-family: 'Roboto Slab', serif;
+}
+
 /* header */
 header .sub-nav{
 	padding: 5px 0;
@@ -108,9 +119,15 @@ section#ultimos-projetos ul li {
 	background-repeat: no-repeat;
 	padding-left: 50px;
 	height: 60px;
-	margin-top: 0;
+	margin-top: 50px;
+	border-bottom: 1px solid rgba(76, 76, 76, 0.1);
 }
-
+section#ultimos-projetos ul li:nth-child(odd) {
+	border-right: 1px solid rgba(76, 76, 76, 0.1);
+}
+section#ultimos-projetos ul li:nth-child(odd) {
+	border-right: 1px solid rgba(76, 76, 76, 0.1);
+}
 section#ultimos-projetos ul li .job-titulo { 
 	margin: 0 0 5px;
 	margin-top: 10px;
@@ -135,13 +152,14 @@ section#ultimos-projetos ul li span.glyphicon-star {
 section#ultimas-noticias {
 	padding: 60px 0 170px 0;
 }
-section#ultimas-noticias .descricao-noticia {
+section#ultimas-noticias a .descricao-noticia {
 	-o-text-overflow: ellipsis;   /* Opera */
     text-overflow: clip;   	  /* IE, Safari (WebKit) */
     overflow:hidden;              /* don't show excess chars */
     white-space:nowrap;           /* force single line */
     width: 70%;
     margin: 0 auto;
+    color: #4c4c4c;
 }
 section#ultimas-noticias .box-noticia .btn-noticia-item {
 	border: 1px solid #fff;
@@ -152,6 +170,7 @@ section#ultimas-noticias .box-noticia .btn-noticia-item {
 section#ultimas-noticias .box-noticia > a p.titulo-noticia {
 	margin-top: 20px;
     margin-bottom: 5px;
+    color: #4c4c4c;
 }
 section#ultimas-noticias .box-noticia > a:hover{
     background-color: #3184b7;
@@ -162,6 +181,7 @@ section#ultimas-noticias .box-noticia > a:hover{
     text-decoration: none;
     /*width: 90%;*/
     padding: 50px 30px;
+    transition: .5s;
 }
 section#ultimas-noticias .box-noticia > a:hover img {
 	display: none;
@@ -171,11 +191,13 @@ section#ultimas-noticias .box-noticia > a:hover p.titulo-noticia {
 	font-size: 20px;
 	width: 50%;
 	margin: 0 auto;
+	color: #fff;
 }
 section#ultimas-noticias .box-noticia > a:hover p.descricao-noticia {
     width: 100%;
     white-space: initial;
     overflow: unset;
+    color: #fff;
 }
 section#ultimas-noticias .box-noticia > a:hover .btn-noticia-item {
 	display: block;
@@ -190,8 +212,11 @@ section#galeria-videos .galeria-videos-topo{
 	height: 400px;
 	color: #fff;
 }
+section#galeria-videos .galeria-videos-itens .container {
+    margin-top: -150px;
+}
 section#galeria-videos .galeria-videos-itens{
-	height: 300px;
+	height: 500px;
 }
 
 
@@ -229,6 +254,9 @@ section#newsletter form input.btn{
 /* footer */
 footer .footer {
 	padding: 40px 0;
+}
+footer .footer p > a {
+	color: rgba(96, 96, 96, 0.5);
 }
 footer .sub-footer {
 	border-top: 1px solid #e9e9e9;
