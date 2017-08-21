@@ -15,6 +15,7 @@ header .sub-nav{
 	border-bottom:  1px solid rgba(96, 96, 96, 0.5);
 }
 header .sub-nav,
+header .sub-nav a,
 header .sub-nav .fa {
 	color: rgba(96, 96, 96, 0.5);
 }
