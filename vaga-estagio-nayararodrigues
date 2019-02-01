@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html> 
+  <head lang="pt-br"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title> KBR TEC - Teste </title>
+    <link rel="stylesheet" type="text/css"  href="estilo.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="sass/estilo.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>    
+   </head>
+  <body>
+  <!-- Superior -->
+    <div class="container-fluid" id="contato-topo">
+      <div class="row justify-content-end wrapper">
+        <div class="col-sm-12 col-md-4">
+          <i class="fa fa-phone" aria-hidden="true"></i> (13) 3333-3333
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <i class="fa fa-envelope-o" aria-hidden="true"></i> www.kbrtec.com.br
+        </div>
+        <div class="col-sm-12 col-md-4">
+          <ul> 
+            <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>      
+          </ul>
+        </div>
+      </div>
+    </div>
+      <!-- Navegação -->
+      <div class="container-fluid" id="topo-nav">
+        <div class="row wrapper">
+          <div class="col-3 align-self-start">
+            <a href="#"><img src="img/logo.png" alt="Logo da empresa kbr tec."></a>
+          </div>       
+          <nav id="menu"> 
+            <ul>
+              <li><a href="#" target="_self">Home</a></li>
+              <li><a href="#" target="_self">Biografia</a></li> 
+              <li><a href="#" target="_self">Propostas</a></li>
+              <li><a href="#" target="_self">Notícias</a></li>
+              <li><a href="#" target="_self">Artigos</a></li>
+              <li><a href="#" target="_self">Videos</a></li>
+              <li><a href="#" target="_self">Materiais</a></li>
+              <li><a href="#" target="_self">Fotos</a></li>
+              <li><a href="#" target="_self">Apoios</a></li>  
+            </ul>
+          </nav>    
+        </div>
+      </div>
+      <!-- Cabeçalho -->
+      <header class="container-fluid">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active"> 
+              <img class="d-block img-fluid" src="img/slide1.jpg" alt="First slide">
+                <div class="pelicula"></div>
+                <div class="conteudo-slide">
+                  <h1>Lorem ipsum dolor sit amet</h1>
+                  <button> Saiba mais </button>
+                </div>
+             </div>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>  
+      </header>
+      <!-- Últimos Projetos -->
+      <section class="container-fluid" id="ultimos-projetos">
+        <div class="row wrapper">
+            <div class="row">
+              <div class="col-12">
+                <h2> Últimos <span>Projetos</span></h2>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quam arcu, rhoncus a sem ac, euism
+                    od posuere quam. Sed a maximus nisl. Quisque nunc mauris, dapibus sed tempor in,
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="row-fluid wrapper itens">
+            <div class="row">
+              <div class="col coluna-1">
+                <div class="row item first-col">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Saúde</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="col coluna-2">
+                <div class="row item">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Educação</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div>            
+            </div>
+            <div class="row">
+              <div class="col coluna-1">
+                <div class="row item">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Segurança pública</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="col coluna-2">
+                <div class="row item">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Cultura</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="col coluna-1">
+                <div class="row item">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Habitação</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="col coluna-2">
+                <div class="row item">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Mobilidade Urbana</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div> 
+            </div>
+            <div class="row">
+              <div class="col coluna-1">
+                <div class="row item">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Juventude e esportes</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>
+                  <div class="circle"></div>
+                </div>
+              </div>
+              <div class="col coluna-2">
+                <div class="row item last-col">
+                  <div class="col-2"><div class="star"><i class="fa fa-star fa-2x" aria-hidden="true"></i></div></div>
+                  <div class="col bloco">
+                    <span>Mulheres</span> 
+                    <p>Lorem ipsm dolor sit amet, consectetur</p>
+                  </div>                 
+                </div>
+              </div> 
+            </div>  
+        </div>
+      </section>
+      <!-- Últimas Notícias -->
+      <section class="container-fluid mt-5" id="ultimas-noticias">
+      <div class="row wrapper">
+        <h2>Últimas <span>Notícias</span></h2>
+      </div>
+        <div class="row wrapper mt-5">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bloco">
+            <div class="row data"> 21/03/2018</div>
+            <div class="row">
+              <figure>
+                <img src="img/hammer.png" class="img-fluid imghvr-fade" alt="imagem 1">
+                <figcaption>
+                  <span>Lorem ipsum dolor sit amet</span>
+                  <p>Lorem ipsum dolor sit ame</p>
+                </figcaption>
+                <!-- Overlay TOPZERA -->
+                <div class="overlay">
+                 <div class="to-center">                
+                   <span>Lorem ipsum dolor sit amet</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quam arcu, rhoncus a sem ac, 
+                      euismod posuere quam. Sed a maximus nisl. Quisque nunc mauris, dapibus sed tempor 
+                    </p>
+                    <button>Saiba mais</button>
+                </div>
+              </div>              
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bloco">
+          <div class="row data"> 21/03/2018</div>
+          <div class="row">
+            <figure>
+              <img src="img/slide2.jpg" class="img-fluid" alt="imagem 1">
+              <figcaption>
+                <span>Lorem ipsum dolor sit amet</span>
+                <p>Lorem ipsum dolor sit ame</p>
+              </figcaption>
+              <div class="overlay">
+                 <div class="to-center">                
+                   <span>Lorem ipsum dolor sit amet</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quam arcu, rhoncus a sem ac, 
+                      euismod posuere quam. Sed a maximus nisl. Quisque nunc mauris, dapibus sed tempor 
+                    </p>
+                    <button>Saiba mais</button>
+                </div>
+              </div>  
+            </figure>
+          </div>
+        </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 bloco">
+            <div class="row data"> 21/03/2018</div>
+            <div class="row">
+              <figure>
+                <img src="img/drums.png" class="img-fluid" alt="imagem 1">
+                <figcaption>
+                  <span>Lorem ipsum dolor sit amet</span>
+                  <p>Lorem ipsum dolor sit ame</p>
+                </figcaption>
+                <div class="overlay">
+                 <div class="to-center">                
+                   <span>Lorem ipsum dolor sit amet</span>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quam arcu, rhoncus a sem ac, 
+                      euismod posuere quam. Sed a maximus nisl. Quisque nunc mauris, dapibus sed tempor 
+                    </p>
+                    <button>Saiba mais</button>
+                </div>
+              </div>  
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
