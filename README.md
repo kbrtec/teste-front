@@ -4,7 +4,7 @@ Montamos esse teste para conhecer os seus conhecimentos e habilidades em HTML, C
 
 ### Faça um fork, clone este projeto e siga as instruções:
 
-- Desenvolver a página conforme o layout **teste-kbrtec.psd**;
+- Desenvolver a página conforme o layout **template-teste.psd**;
 - Seguir à risca o PSD;
 - Suporte para IE9+, Chrome, Safari, Firefox;
 - Você pode utilizar as tecnologias que achar melhor (frameworks JS / CSS);
@@ -25,4 +25,4 @@ Queremos uma pessoa que gosta do que faz, que trabalhe em equipe e tenha vontade
 
 *Se você se identificou, venha fazer parte do nosso time!*
 
-PRAZO: Até no máximo 31/01 às 23h59.
+PRAZO: Até no máximo 27/10 às 23h59.
