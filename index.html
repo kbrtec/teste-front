@@ -1,0 +1,574 @@
+<!-- 
+
+    LAYOUT PARA VAGA DE ESTÁGIO KBRTEC
+    NOME: ISMAEL RAFAEL DA SILVA SOUSA
+    EMAIL: ismaelrsousa18@gmail.com
+
+ -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/script.js"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    
+    <!-- TOP MENU DESK -->
+    <header class="desk">
+        <div class="row">
+            <div class="col-md-2">
+                <button value="home" style="outline: none;" class="menu-btn">HOME</button>
+            </div>
+            <div class="col-md-2">
+                <button value="servicos" style="outline: none;" class="menu-btn">SERVIÇOS</button>
+            </div>
+            <div class="col-md-2">
+                <img src="img/logo.png">
+            </div>
+            <div class="col-md-2">
+                <button value="quem-somos" style="outline: none;" class="menu-btn">QUEM SOMOS</button>
+            </div>
+            <div class="col-md-2">
+                <button value="contato" style="outline: none;" class="menu-btn">CONTATO</button>
+            </div>
+            <div class="col-md-2">
+                <div id="fale-conosco">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img src="img/support.png">
+                        </div>
+                        <div class="col-md-10">
+                            FALE CONOSCO<br>
+                            <strong>(00) 0000-0000</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="home-triangle" class="col-md-2 have-triangle"><div class="triangle"></div></div>
+            <div id="servicos-triangle" class="col-md-2 have-triangle"><div class="triangle"></div></div>
+            <div class="col-md-2"></div>
+            <div id="quem-somos-triangle" class="col-md-2 have-triangle"><div class="triangle"></div></div>
+            <div id="contato-triangle" class="col-md-2 have-triangle"><div class="triangle"></div></div>
+        </div>
+    </header>
+    <!-- END TOP MENU DESK -->
+
+    <!-- TOP MENU CELL -->
+    <div class="cell">
+        <div id="top-menu-cell">
+            <a id="top-menu-button"><img src="img/menu-icon.png"></a>
+        </div>
+    </div>
+    
+
+    <div id="menu-cell">
+        <button value="home" onclick="goTo(100,'a')" style="outline: none;" class="menu-btn">HOME</button>
+        <button value="servicos" class="menu-btn" style="outline: none;">SERVIÇOS</button>
+        <button value="quem-somos" class="menu-btn" style="outline: none;">QUEM SOMOS</button>
+        <button value="contato" class="menu-btn" style="outline: none;">CONTATO</button>
+        <div id="fale-conosco">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                    <img src="img/support.png">
+                </div>
+                <div class="col-sm-4">
+                    FALE CONOSCO<br>
+                    (00) 0000-0000
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TOP MENU CELL -->
+    <!-- SLIDE -->
+    <div id="home">
+        <div class="row">
+            <div class="col-md-12">
+                
+                    <div class="slide">
+                    
+                        <div class="slide-image" id="slide1" style="display: block;">
+                            <img class="image" src="img/slide1.png">
+                            <div class="text">
+                                <img src="img/tie.png" id="tie">
+                                <h2>O MELHOR VOCÊ ENCONTRA AQUI</h2>
+                                <img src="img/text.png">
+                            </div>
+                        </div>
+
+                        <div class="slide-image" id="slide2">
+                            <img class="image" src="img/slide2.jpg">
+                            <div class="text">
+                                <img src="img/tie.png" id="tie">
+                                <h2>O MELHOR VOCÊ ENCONTRA AQUI</h2>
+                                <img src="img/text.png">
+                            </div>
+                        </div>
+
+                        <div class="slide-image" id="slide3">
+                            <img class="image" src="img/slide3.jpg">
+                            <div class="text">
+                                <img src="img/tie.png" id="tie">
+                                <h2>O MELHOR VOCÊ ENCONTRA AQUI</h2>
+                                <img src="img/text.png">
+                            </div>
+                        </div>
+                        
+
+                    </div>
+                    <div class="dot-area">
+                        <span class="dot selected" id="1"></span>
+                        <span class="dot" id="2"></span>
+                        <span class="dot" id="3"></span>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- END SLIDE -->
+
+    
+
+    <!-- SERVIÇOS -->
+    <div id="servicos">
+        <div class="row">
+            <div class="col-md-12">
+                <h5>CONHEÇA</h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>NOSSOS SERVIÇOS</h2>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="card pink text-justify">
+                    <img src="img/gift.png" style="width: 30%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolor officiis. Ratione voluptas suscipit magni, quia dignissimos ducimus deleniti necessitatibus ullam! Ipsa nisi repudiandae culpa, possimus illum maxime repellendus expedita.</p>
+                    <a href="#home" class="saiba-mais"><i class="fas fa-plus-circle"></i>Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card yellow text-justify">
+                    <img src="img/gift.png" style="width: 30%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolor officiis. Ratione voluptas suscipit magni, quia dignissimos ducimus deleniti necessitatibus ullam! Ipsa nisi repudiandae culpa, possimus illum maxime repellendus expedita.</p>
+                    <a href="#home" class="saiba-mais"><i class="fas fa-plus-circle"></i>Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card pink text-justify">
+                    <img src="img/gift.png" style="width: 30%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolor officiis. Ratione voluptas suscipit magni, quia dignissimos ducimus deleniti necessitatibus ullam! Ipsa nisi repudiandae culpa, possimus illum maxime repellendus expedita.</p>
+                    <a href="#home" class="saiba-mais"><i class="fas fa-plus-circle"></i>Saiba Mais</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card pink text-justify">
+                    <img src="img/gift.png" style="width: 30%;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, dolor officiis. Ratione voluptas suscipit magni, quia dignissimos ducimus deleniti necessitatibus ullam! Ipsa nisi repudiandae culpa, possimus illum maxime repellendus expedita.</p>
+                    <a href="#home" class="saiba-mais"><i class="fas fa-plus-circle"></i>Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        <div id="vamos-conversar">
+            <div class="row">
+                <div class="col-md-12">
+                    <button style="outline: none;">VAMOS CONVERSAR?</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SERVIÇOS -->
+
+    <!-- QUEM SOMOS -->
+    <div id="quem-somos">
+        <div class="row">
+            <div class="col-md-4 text-justify">
+                <div id="texto">
+                    <div id="saiba">
+                        <h5>SAIBA</h5>
+                        <h2>QUEM SOMOS</h2><br>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur molestiae quidem eveniet reprehenderit, aperiam magnam sed? Earum fugiat consectetur aliquam iure asperiores sit eius facere, aut hic neque, recusandae reprehenderit?</p>
+                    </div>
+                    <div id="diferenciais" class="text-left">
+                        <h5>NOSSOS</h5>
+                        <h2>DIFERÊNCIAIS</h2><br>
+                        <p><i class="fas fa-check-circle"></i>Presentes para todas as idades</p>
+                        <p><i class="fas fa-check-circle"></i>Produtos de qualidade</p>
+                        <p><i class="fas fa-check-circle"></i>Parcelamento no cartão de crédito</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 text-right">
+                <div id="image">
+                    <img src="img/quem-somos.png">
+                </div>
+            </div>
+        </div>
+        <div class="desk">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="solicite">
+                        <button style="outline: none;">GOSTOU? SOLICITE UM CONTATO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="cell">
+        <div id="solicite-cell">
+            <button style="outline: none;">GOSTOU? SOLICITE UM CONTATO</button>
+        </div>
+    </div>
+    <!-- END QUEM SOMOS -->
+
+    <!-- ULTIMOS PROJETOS -->
+    <div class="desk">
+        <div id="ultimos-projetos">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Últimos Projetos</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus cupiditate aperiam officiis beatae!</p>
+                </div>                
+            </div>
+            <div class="row">                
+                <div class="col-sm-6">
+                    <div id="leftStarArea">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star rightBorder bottomBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star rightBorder bottomBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star rightBorder bottomBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star rightBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="blank">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div id="rightStarArea">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star bottomBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star bottomBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star bottomBorder">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="star">
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <img src="img/star.png" style="width: 100%;">
+                                        </div>
+                                        <div class="col-md-10">
+                                            <h4>Lorem ipsum</h4><p>Lorem, ipsum dolor sit amet consectetur.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="arrow">
+                    <div id="circle">
+                        <i class="fas fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cell">
+        <div class="row">
+            <div class="col-sm-12 text-center top">
+                <h2>Últimos Projetos</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus cupiditate aperiam officiis beatae!</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row star rightBorder bottomBorder">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+                <div class="row star rightBorder bottomBorder">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+                <div class="row star rightBorder bottomBorder">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+                <div class="row star rightBorder">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row rightstar bottomBorder" style="margin-top: 100px;">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+                <div class="row rightstar bottomBorder">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+                <div class="row rightstar bottomBorder">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+                <div class="row rightstar">
+                    <div class="col-sm-2">
+                        <img src="img/star.png">
+                    </div>
+                    <div class="col-sm-10">	
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <a>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center" id="arrow">
+                <div id="circle">
+                    <i class="fas fa-arrow-down"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END ULTIMOS PROJETOS -->
+
+    <!-- AMIGOS E PARCEIROS -->
+    <div id="amigos-parceiros">
+        <div class="row">
+            <div class="col-md-12">
+                <h5>NOSSOS</h5>
+                <h2>Amigos e Parceiros</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-2 border-right">
+                <img src="img/parceiros-3.png">
+            </div>
+            <div class="col-md-2 col-sm-2 border-right">
+                <img src="img/parceiros-2.png">
+            </div>
+            <div class="col-md-2 col-sm-2 border-right focus">
+                <img src="img/parceiros-1.png">
+            </div>
+            <div class="col-md-2 col-sm-2 border-right">
+                <img src="img/parceiros-4.png">
+            </div>
+            <div class="col-md-2 col-sm-2">
+                <img src="img/parceiros-5.png">
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <!-- END AMIGOS E PARCEIROS -->
+
+    <!-- CONTATO -->
+    <div id="contato">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2>Ficou interessado?</h2>
+                <h5>ENTRE EM CONTATO AGORA MESMO!</h5>
+            </div>
+        </div>
+        <div class="input-area">
+            <div class="row">
+                <input type="text" name="nome" placeholder="*Seu Nome">
+            </div>
+            <div class="row">
+                <input type="mail" name="email" placeholder="*E-mail">
+                <input type="telephone" name="telefone" placeholder="*Telefone ou Celular">
+            </div>                
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <button style="outline: none;">ENVIAR MENSAGEM</button>
+            </div>
+        </div>
+    </div>
+    <!-- END CONTATO -->
+
+    <div id="footer">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <h3>Endereço</h3>
+                <a>Av. Domingues Cruz Lopes 15698</a>
+                <a>Centro Santos/SP</a>
+            </div>
+            <div class="col-md-1 col-sm-6 text-center">
+                <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="margin"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-6 ">
+                <h3>Atendimento</h3>
+                <a>(00) 0000-0000</a>    
+            </div>                
+            <div class="col-md-1 col-sm-6 text-center">
+                <i class="fas fa-clock"></i>
+            </div>
+            <div class="margin"></div>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <h3>Funcionamento</h3>
+                <a>De Segunda a Sexta das: 09:00 às 18:00 Sábado e Domingo Fechado</a>                    
+            </div>
+        </div>            
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-4 col-sm-4">
+                <p>Decora Presentes - Todos os direitos reservados.</p>                    
+            </div>
+            <div class="col-md-4 col-sm-4 text-center">
+                <img src="img/logo.png">
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <p id="right">Desenvolvido por KBRTEC <i class="fab fa-facebook-f"></i><i class="fab fa-instagram"></i></p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
