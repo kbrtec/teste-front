@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+.botao {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+    text-decoration:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-fluid {
+    justify-content: center;
+}
+
+.botao:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    color:#fff;
+    background-color:#a3024b;
+    border-radius: 15px;
+    text-decoration:none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+form {
+    background-color: #ffcd00;
+    padding: 50px;
+}
+
+.card a {
+ color: #ffcd00;
+}
+
+.btn-sender {
+    background-color:#a3024b;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-sender:hover {
+    background-color:#a3024b;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-warning {
+    background-color:#f9b009;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.margem {
+    padding-left: 230px;
+    list-style-type: none;
+}
+.margem-direita {
+    border-radius: 30px 0 0 0;
+    /*padding-right: 150px;*/
+}
+.fundo-gostou {
+    background: rgb(161,0,157);
+    background: linear-gradient(156deg, rgba(161,0,157,1) 0%, rgba(107,33,101,1) 100%);
+    line-height: 100px;
+    border-radius: 60px 0 0 60px;
+    margin-top: 81px;
+    margin-left: 210px;
+}
+
+.display-6 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    justify-content: center;
+}
+
+.display-7 {
+    font-size: 25px;
+    justify-content: center;
+}
+
+.espaçamento {
+    line-height: 10px;
+}
+
+.subtitle {
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    padding-bottom: 50px;
+    text-shadow: 0px 1px 10px rgba(206,89,55,0.48);
+}
+
+.title-2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.fale-conosco {
+    line-height: 1px;
+    float: right;
+    background-color:#921362;
+    color: #fff;
+}
+
+.input-fale-conosco {
+    display:inline-block;
+}
+.rodape {
+    background-color: #8c003f;
+    color: #Fff;
+    
+}
+
+.rodape-text {
+    font-weight: bold;
+    font-size: 20px;
+}
