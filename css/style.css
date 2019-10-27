@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+/* --------------------------------------*/
+/* ---------->>> TAGS HTML <<<-----------*/
+/* --------------------------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+    main a{
+        color: black;
+    }
+
+        main a:hover{
+            text-decoration: none;
+            color: initial;
+        }
+
+section{
+    padding: 5% 15% 5% 15%;  
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-weight: 700;
+}
+
+button{    
+    font-weight: 800;
+}
+
+p{
+    font-weight: 400;
+}
+
+
+/* ----------------------------------------------------*/
+/* ---------->>> CUSTOMIZAÇÃO DAS SEÇÕES <<<-----------*/
+/* ----------------------------------------------------*/
+.titulo h2{    
+    margin-bottom: 40px;    
+}
+
+.subtitle{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+
+#parceiros{
+    background-color: #fcfcfc;
+}
+
+#parceiros img{
+    margin-bottom: 30px; 
+}
+
+#contato{       
+    /*Altura máxima do background: 600px */ 
+    background-image: url("../img/bg_faleconosco.png");   
+    max-height: 600px; 
+}
+
+#informacao{
+    /*Altura máxima do background: 250px */
+    background-image: url("../img/bg_rosa.png");
+    color: white;
+}
+
+    #informacao p{
+        font-weight: 300;
+    }
+
+#banner{
+    background-image: url("../img/banner_semtexto.png");
+    background-repeat: round;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    color: white;
+    text-align: center;
+}
+
+#banner p{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    letter-spacing: 20px;
+}
+
+#sombra_direita, #sombra_esquerda{
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 18px;
+}
+
+#sombra_direita{
+    text-shadow: #F8AD0A -0.04em 0.03em 1px;   
+}
+
+#sombra_esquerda{
+    text-shadow: #F8AD0A 0.04em -0.03em 1px;   
+}
+
+#quemsomos{
+    padding: 0;
+    padding-left: 15%;
+}
+
+#quemsomos p:not(.subtitle){
+    font-weight: 300;
+}
+
+#calltoaction{
+    background-image: url("../img/bg_rosa.png");
+    background-repeat: round;
+    border-radius: 100px 0 0 100px;
+    margin: 0;
+    height: 130px;
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.projetos{
+    line-height: 0.8em;
+}
+
+#servicos{
+    margin-bottom: 5%;
+}
+
+#servicos button{
+    margin-top: 35px;
+}
+
+.card_servico{
+    padding: 30px 15px 15px 15px;
+    width: 15em; 
+    margin-left: 30px;
+}
+
+    .card_servico p:first-of-type{
+        font-weight: 600;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    } 
+    
+.borda_rosa:hover{
+    border: 1px dashed #A6034C;
+    padding: 29px 14px 14px 14px;
+}
+
+.borda_amarela:hover{
+    border: 1px dashed #F8AD0A;
+    padding: 29px 14px 14px 14px;
+}
+    
+
+#ultimosprojetos .text-center p{       
+    font-weight: 300;
+    font-size: 1.4em;
+}  
+
+/* --------------------------------------*/
+/* ---------->>> CABEÇALHO <<<-----------*/
+/* --------------------------------------*/
+
+#logo_navbar{
+    width:350px;
+}
+
+#img_faleconosco{
+    width:13em;
+    position:absolute;
+    left:calc(95% - 6.5em);
+    right:15px;
+    top:0;
+}
+
+@media (max-width: 980px){    
+    #img_faleconosco{
+        display: none;
+    }
+} 
+
+@media (max-width: 1200px){    
+    #img_faleconosco{
+        width:8.3em;
+        position:absolute;
+        left:calc(95% - 4.15em);        
+        top:0;
+    }
+} 
+
+#al-center-nav{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.navbar{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.navbar a{
+    color: black;   
+}
+
+.navbar-brand{
+  /*Descontar a metade da largura do logo para ele ficar centralizado*/
+  position:absolute;
+  left:calc(50% - 175px);
+  top:8px;
+}
+
+.nav-item{
+    padding: 15px;   
+}
+
+.nav-link:hover{
+    border-radius: 50px;
+    background-color: #A6034C;
+    color: white;
+}
+
+.navbar-toggler{
+    background-image: url('../img/menu.png');
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+@media (max-width:700px){    
+    #logo_navbar{
+        width:200px;
+    }
+    .navbar-brand{
+        /*Descontar a metade da largura do logo para ele ficar centralizado*/        
+        left:calc(50% - 100px);    
+    }
+    .nav-item{
+       text-align: center;       
+    }
+    .mr-auto .nav-item:first-of-type{
+        margin-top: 50px;
+    }   
+}
+
+/* --------------------------------------*/
+/* ---------->>> RODAPÉ <<<--------------*/
+/* --------------------------------------*/
+footer #logo_footer{
+    width: 450px;
+    position: absolute;
+    left:calc(50% - 225px);
+    bottom: calc(70% - 90px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (max-width: 1150px){    
+    footer #logo_footer{
+        width: 300px;        
+        position: relative;  
+    }       
+} 
+
+footer{   
+    text-align: center;   
+    position: relative; 
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    padding: 0;
+    margin: 0;          
+}
+
+footer .txt_footer{
+    margin-top: 75px;
+    font-size: 0.8em;
+}
+
+footer .txt_footer img{
+    margin-left: 15px;
+}
+
+/* ---------------------------------------*/
+/* ---------->>> IMAGENS <<<--------------*/
+/* ---------------------------------------*/
+
+p img{
+    margin-bottom: 10px;
+}
+
+.img_quemsomos {
+    border-top-left-radius: 3em;    
+}
+
+/* ----------------------------------------------*/
+/* ---------->>> LINHA DO TEMPO <<<--------------*/
+/* ----------------------------------------------*/
+
+.container-tl {
+    width: 60%;
+    padding: 50px 0;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;   
+    text-align: center;
+}
+ 
+.container-tl:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px;
+    height: 100%;
+    background: #CCD1D9;
+    z-index: 1
+}
+ 
+.timeline-block {
+    width: -webkit-calc(50% + 6px);
+    width: -moz-calc(50% + 6px);
+    width: calc(50% + 6px);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    clear: both;
+}
+
+.timeline-block img{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/* 
+.timeline-block-left:hover{
+    border-bottom: #A6034C 1px solid;   
+    border-right: #A6034C 1px solid;
+}
+
+.timeline-block-right:hover{
+    border-bottom: #A6034C 1px solid;   
+    border-left: #A6034C 1px solid;
+}
+*/
+.timeline-block-right {
+    float: right;
+}
+ 
+.timeline-block-left {
+    float: left;
+    direction: rtl;      
+}
+
+.timeline-block-right img{
+    margin-left: 20px;
+}
+ 
+.marker {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #F9E8F0;
+    background: gray;
+    margin-top: 15px;
+    z-index: 9999;
+}
+ 
+.timeline-content {
+    width: 100%;
+    padding: 10px;
+}
+ 
+.timeline-content h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.timeline-content img{
+    float: left;  
+}
+ 
+.timeline-content:hover{
+    color: #D91E85;
+}
+
+.timeline-content p{
+    color: black !important;
+}
+ 
+@media screen and (max-width: 768px) {
+    .container-tl:before {
+       left: 5px;
+       width: 2px;
+    }
+    .timeline-block {
+       width: 100%;
+       margin-bottom: 30px;
+    }
+    .timeline-block-right {
+       float: none;
+    }
+ 
+    .timeline-block-left {
+       float: none;
+       direction: ltr;
+    }
+
+    .container-tl {
+        width: 100%;
+        padding: 50px 0;
+        margin: 50px auto;
+        position: relative;
+        overflow: hidden;   
+        text-align: left;
+    }
+
+    .timeline-block-right img{
+        margin-left: 0;
+    }  
+
+    .marker {
+        width: 10px;
+        height: 10px; 
+        margin-top: 30px;       
+    }
+}
+ 
+
+/* --------------------------------------*/
+/* ---------->>> OUTROS <<<--------------*/
+/* --------------------------------------*/
+
+
+.text-center{   
+    margin-bottom: 25px;
+}
+
+.pill{
+    border-radius: 20px;  
+    padding: 7px 20px;  
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none; 
+    border:none;  
+}
+
+.btn-rosa{
+   color:white;
+   background-color:  #A6034C;
+}
+
+.btn-amarelo{
+    color:white;
+    background-color:#FBBA06;
+}
+
+.plus{
+    margin-right: 5px;
+    padding-top: 5px;
+    height: 1.2em;
+}
+
+.check{
+    margin-right: 1.2em;
+    padding-top: 5px;
+    height: 1.2em;
+}
+
+.rosa{
+    color: #A6034C;
+}
+
+    .rosa:hover{
+        color: #A6034C;
+    }
+
+.amarelo{
+    color: #FBBA06;
+}
+
+    .amarelo:hover{
+        color: #FBBA06;
+    }
+
+
+/* ----------------------------------------------*/
+/* ---------->>> RESPONSIVIDADE <<<--------------*/
+/* ----------------------------------------------*/
+@media (max-width:700px){   
+    #banner p{        
+        font-size: 1.1em;       
+        letter-spacing: normal;
+    }
+    
+    #sombra_direita, #sombra_esquerda{
+        font-size: 2em;       
+    }
+
+    #calltoaction{        
+        border-radius:0;       
+        height: 100px;
+        padding-top: 20px;
+        padding-left: 30px;
+        width: 100%;
+    }    
+}
+
+@media (max-width:900px){ 
+    section{
+        padding: 5% 10%;  
+        width: 100%;
+    }
+
+    #banner{      
+        background-repeat: initial;
+        background-position: center;        
+    }
+    
+    #banner p{        
+        font-size: 1.3em;       
+        letter-spacing: normal;
+    }
+    
+    #sombra_direita, #sombra_esquerda{
+        font-size: 2.3em;       
+    }
+}
+
+@media (max-width:1000px){  
+    #banner p{      
+        letter-spacing: normal;
+    }
+}
+
+
+
+
