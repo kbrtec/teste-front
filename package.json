@@ -1,0 +1,16 @@
+{
+  "name": "teste-front",
+  "version": "1.0.0",
+  "description": "Teste para estágio Front-End da KBR Tec",
+  "main": "index.js",
+  "repository": "https://github.com/mateussmedeiros/teste-front.git",
+  "author": "Mateus Medeiros <mateus.sousamedeiros@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
